@@ -28,7 +28,7 @@
             ${empresa.nome} - 
             <fmt:formatDate value="${empresa.dataAbertura}" pattern="dd/MM/yyyy"/>
             <a href="/JavaServletFundamentosAlura/entrada?acao=MostraEmpresa&id=${empresa.id}">Editar</a>
-            <a href="/JavaServletFundamentosAlura/entrada?acao=RemoveEmpresa&id=${empresa.id}">Remover</a>
+            <a href="/JavaServletFundamentosAlura/entrada?acao=RemoveEmpresas&id=${empresa.id}">Remover</a>
             </li>
         </c:forEach>
     </ul>
