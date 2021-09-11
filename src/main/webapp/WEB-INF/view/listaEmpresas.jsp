@@ -15,6 +15,9 @@
 </head>
 <body>
     
+    Bem vindo ${usuarioLogado.login }!
+    <c:import url="logout-parcial.jsp"/>
+    
     <c:if test="${not empty nomeEmpresa }">
 			Empresa ${ nomeEmpresa } cadastrada com sucesso!
 			<br>
